@@ -11,7 +11,7 @@ public class NPC : MonoBehaviour
     void Start()
     {
         health = health + level;
-        print("ΥΟ νορ:" + health);
+        print("NPC HP:" + health);
     }
 
     // Update is called once per frame
